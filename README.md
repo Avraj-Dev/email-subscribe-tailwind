@@ -1,5 +1,7 @@
 # Email subscribe form using TailwindCSS
 
+Check out the [live demo](https://tailwind-email-subscribe.netlify.app/)
+
 Build css file once in `./css/styles.css`
 
 ```bash
