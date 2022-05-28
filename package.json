@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind -i ./input.css -o ./css/styles.css",
+    "watch": "tailwind -i ./input.css -o ./css/styles.css --watch",
+    "production": "tailwindcss -o css/styles.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}

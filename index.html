@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Tailwind Email Subscribe</title>
+  </head>
+  <body>
+    <!-- Background container -->
+    <div
+      class="flex items-center justify-center h-screen bg-zinc-700 text-white"
+    >
+      <!-- Card -->
+      <div class="bg-zinc-800 p-2 mx-6 rounded-2xl">
+        <!-- Flex container -->
+        <div class="flex flex-col md:flex-row rounded-l-xl">
+          <!-- Image -->
+          <img
+            src="https://unsplash.com/photos/O5fxEDu0S5I/download?ixid=MnwxMjA3fDF8MXxhbGx8Nnx8fHx8fDJ8fDE2NTM2NjE4MTU&force=true&w=640"
+            alt=""
+            class="object-cover rounded-xl h-80 md:h-64 md:rounded-l-xl md:rounded-r-none md:w-72 hover:scale-[102%] hover:rounded-xl md:hover:rounded-r-none duration-200"
+          />
+
+          <!-- Content -->
+          <div class="p-6 md:p-12">
+            <h2 class="font-serif text-xl font-medium text-center md:text-left">
+              Get finance tips in your inbox
+            </h2>
+
+            <p
+              class="max-w-xs mx-auto text-xs leading-5 tracking-wide text-center md:text-left"
+            >
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Doloremque beatae.
+            </p>
+
+            <div
+              class="flex flex-col mt-5 space-y-4 md:space-x-3 md:flex-row md:space-y-0"
+            >
+              <input
+                type="email"
+                placeholder="Enter your email address"
+                class="text-center p-2 px-4 text-white bg-zinc-800 border-2 border-zinc-600 placeholder:text-xs placeholder:text-center md:text-left md:placeholder:text-left focus:outline-none"
+              />
+
+              <button
+                type="submit"
+                class="px-5 py-3 text-xs rounded-md text-zinc-800 bg-[#d8a4dc] hover:brightness-75 transition-all"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
